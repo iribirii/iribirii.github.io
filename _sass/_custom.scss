@@ -1,6 +1,15 @@
 // Site-specific overrides
 
-// Bio on the left, profile photo on the right — tops aligned with each other
+// Name alone on top; subtitle + bio left, photo right (tops aligned with subtitle)
+.about-name-header {
+  margin-bottom: 0.35rem;
+
+  .post-title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 .about-hero {
   display: flex;
   align-items: flex-start;
@@ -13,11 +22,11 @@
     min-width: 0;
   }
 
-  .about-hero-body {
-    p:first-child {
-      margin-top: 0;
-    }
+  .desc {
+    margin-top: 0;
+  }
 
+  .about-hero-body {
     p:last-child {
       margin-bottom: 0;
     }
