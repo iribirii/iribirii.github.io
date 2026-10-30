@@ -1,0 +1,24 @@
+// Site-specific overrides
+
+.social {
+  .contact-icons {
+    font-size: 2rem;
+
+    a {
+      img {
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+
+      svg {
+        width: 1.75rem;
+        height: 2rem;
+
+        image {
+          width: 1.75rem;
+          height: 1.75rem;
+        }
+      }
+    }
+  }
+}
