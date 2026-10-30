@@ -1,0 +1,10 @@
+github_users:
+  - iribirii
+
+repo_description_lines_max: 2
+
+github_repos:
+  - iribirii/smiles2svg
+  - iribirii/icons-for-chemists
+  - iribirii/xyzrender
+  - iribirii/EDS_quantification
