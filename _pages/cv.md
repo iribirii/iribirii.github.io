@@ -4,8 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
+cv_pdf: /assets/pdf/CV.pdf
 cv_format: rendercv
-description: Curriculum vitae — experience, education, awards, teaching, and outreach.
+description: Curriculum vitae with downloadable PDF. Full publication list on the publications page.
 toc:
   sidebar: left
 ---
