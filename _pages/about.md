@@ -6,7 +6,7 @@ subtitle: Postdoctoral researcher in computational chemistry · Technical Univer
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false
   more_info: >
     <p>Technical University of Munich</p>
