@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: false
-  more_info: >
-    <p>Technical University of Munich</p>
-    <p>Computational Bioinorganic Medicinal Chemistry</p>
-    <p><a href="/cv/">Curriculum vitae</a></p>
 
 selected_papers: false
 social: true
