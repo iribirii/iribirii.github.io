@@ -82,3 +82,16 @@
     }
   }
 }
+
+// Keep Scholar citation badge inline with DOI/Bib buttons
+.publications .links .scholar-cite {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.25rem;
+  vertical-align: middle;
+
+  img {
+    height: 1.35rem;
+    margin: 0;
+  }
+}
