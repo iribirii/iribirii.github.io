@@ -1,10 +1,22 @@
 metadata:
   last_updated: '2026-10-30'
 papers:
+  UDkf1dkAAAAJ:9ZlFYXVOiuMC:
+    citations: 2
+    title: Polypyridyl Ru(II) tamoxifen analogues
+    year: '2026'
   UDkf1dkAAAAJ:mVmsd5A6BfQC:
     citations: 1
     title: A Dynamic Evaluation of Cisplatin Encapsulation into [Pd2L4]4+ Metallacages in Solution
     year: '2026'
+  UDkf1dkAAAAJ:Wp0gIr-vW9MC:
+    citations: 2
+    title: In silico Catalyst Design Within Asymmetric Organocatalysis
+    year: '2025'
+  UDkf1dkAAAAJ:qxL8FJ1GzNcC:
+    citations: 8
+    title: Drug screening targeting TREM2-TYROBP transmembrane binding
+    year: '2025'
   UDkf1dkAAAAJ:dhFuZR0502QC:
     citations: 3
     title: Computational Workflow to Unravel the Structural Dynamics of Supramolecular Metallacages in Solution
@@ -24,6 +36,10 @@ papers:
   UDkf1dkAAAAJ:Y0pCki6q_DkC:
     citations: 15
     title: Simultaneous hydrogen bonds with different binding modes
+    year: '2023'
+  UDkf1dkAAAAJ:W7OEmFMy1HYC:
+    citations: 6
+    title: Influence of Lewis acids on the symmetric SN2 reaction
     year: '2023'
   UDkf1dkAAAAJ:Tyk-4Ss8FVUC:
     citations: 8

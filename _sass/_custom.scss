@@ -83,6 +83,25 @@
   }
 }
 
+// Publication covers + TOCs: shared height (covers), width follows aspect ratio
+.publications ol.bibliography li .abbr.col-sm-2 {
+  @media (min-width: 576px) {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 20rem;
+  }
+
+  img.preview,
+  picture img,
+  video.preview {
+    height: 13.75rem; // match cover height at the old col-sm-2 width
+    width: auto !important;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: left top;
+  }
+}
+
 // Scholar citation badge inline with DOI/Bib, without button chrome
 .publications .links .scholar-cite {
   display: inline-flex;
