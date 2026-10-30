@@ -1,21 +1,30 @@
 // Site-specific overrides
 
-// Align profile photo top with the name on the about page
+// Name + bio on the left, profile photo on the right, tops aligned
 .about-hero {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
-  .post-header {
+  .about-hero-text {
     flex: 1 1 auto;
     min-width: 0;
-    margin-bottom: 0;
+  }
+
+  .post-header {
+    margin-bottom: 0.75rem;
   }
 
   .post-title {
     margin-top: 0;
+  }
+
+  .about-hero-body {
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .about-hero-profile {
@@ -35,12 +44,13 @@
 
 @media (max-width: 575.98px) {
   .about-hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     .about-hero-profile {
       width: 100%;
       max-width: 240px;
       align-self: center;
+      margin-bottom: 1rem;
     }
   }
 }
