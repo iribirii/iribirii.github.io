@@ -83,6 +83,60 @@
   }
 }
 
+// Hide empty page subtitles (e.g. publications stats header)
+.post-header .post-description:empty {
+  display: none;
+}
+
+// Publication metrics row (replaces bib search + description)
+.pub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem 2.5rem;
+  margin: 0.25rem 0 1.75rem;
+  padding: 0;
+}
+
+.pub-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none !important;
+  color: inherit;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0;
+  min-width: 5.5rem;
+
+  &:hover,
+  &:focus {
+    color: var(--global-theme-color);
+    text-decoration: none !important;
+
+    .pub-stat-value {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.pub-stat-value {
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--global-text-color);
+}
+
+.pub-stat-label {
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
 // Publication covers + TOCs: shared height (covers), width follows aspect ratio
 .publications ol.bibliography li .abbr.col-sm-2 {
   @media (min-width: 576px) {

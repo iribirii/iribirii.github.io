@@ -41,6 +41,7 @@ def get_scholar_citations() -> None:
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
 
+    existing_data = None
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
         try:
@@ -59,6 +60,7 @@ def get_scholar_citations() -> None:
             print(
                 f"Warning: Could not read existing citation data from {OUTPUT_FILE}: {e}. The file may be missing or corrupted."
             )
+            existing_data = None
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
@@ -108,8 +110,32 @@ def get_scholar_citations() -> None:
                 f"Error processing publication '{pub.get('bib', {}).get('title', 'Unknown')}': {e}. This publication will be skipped."
             )
 
+    cite_counts = sorted(
+        (p.get("citations") or 0 for p in citation_data["papers"].values()),
+        reverse=True,
+    )
+    h_index = 0
+    for rank, cites in enumerate(cite_counts, start=1):
+        if cites >= rank:
+            h_index = rank
+        else:
+            break
+
+    # Prefer Scholar profile totals when available; fall back to list aggregates.
+    citation_data["metadata"].update(
+        {
+            "publications": len(citation_data["papers"]),
+            "citations": int(author_data.get("citedby") or sum(cite_counts)),
+            "h_index": int(author_data.get("hindex") or h_index),
+        }
+    )
+
     # Compare new data with existing data
-    if existing_data and existing_data.get("papers") == citation_data["papers"]:
+    if existing_data and existing_data.get("papers") == citation_data["papers"] and existing_data.get(
+        "metadata", {}
+    ).get("citations") == citation_data["metadata"].get("citations") and existing_data.get(
+        "metadata", {}
+    ).get("h_index") == citation_data["metadata"].get("h_index"):
         print("No changes in citation data. Skipping file update.")
         return
 
