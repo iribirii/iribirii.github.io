@@ -28,112 +28,78 @@ cv:
     countryCode: DE
 
   sections:
-    Experience:
-      - company: Technical University of Munich
-        position: Postdoctoral researcher
-        location: School of Natural Sciences, Munich, Germany
-        start_date: 2024-03
-        end_date: present
-        summary: >
-          Computational Bioinorganic Medicinal Chemistry —
-          *Machine Learning-Powered Design of Supramolecular Metallacages
-          as Novel Drug Delivery Systems*
-        highlights:
-          - Structural dynamics of organometallic cages (DFT, MD, MLIP)
-          - Host–guest binding and drug-delivery modelling
-          - Assistant lecturer, *Python for Engineering Data Analysis*
-
-      - company: Trinity College Dublin
-        position: Ph.D. researcher in Computational Organic Chemistry
-        location: School of Chemistry, Dublin, Ireland
-        start_date: 2019-09
-        end_date: 2024-01
-        summary: >
-          *Theoretical development of a new class of phase-transfer catalysts:
-          applications in the pharmaceutical industry*
-          (supervisor: Prof. Cristina Trujillo)
-        highlights:
-          - Catalyst design and conformational sampling
-          - Noncovalent interactions governing selectivity
-          - Science Foundation Ireland (SFI) fellowship
-
-      - company: Everis (NTT Data)
-        position: Consultant
-        location: Madrid, Spain
-        start_date: 2018-11
-        end_date: 2019-08
-        summary: Big Data projects at Banco Santander and Vodafone.
-
-    Volunteer:
-      - company: SciLab / Deutsches Museum
-        position: Activity leader
-        location: Munich, Germany
-        start_date: 2026
-        end_date: 2026
-        summary: >
-          150th anniversary of electrical engineering and information technology at TUM.
-
-      - company: ESB Science Blast
-        position: Activity leader
-        location: Ireland
-        start_date: 2023
-        end_date: 2023
-        summary: Public science engagement activities.
-
-      - company: Current Chemistry Investigators
-        position: Activity leader and ambassador
-        location: Ireland
-        start_date: 2021
-        end_date: 2024
-        summary: Secondary-school chemistry workshops.
-
-      - company: Stories from the lab
-        position: Activity ambassador
-        location: Ireland
-        start_date: 2020
-        end_date: 2021
-        summary: Secondary-school outreach workshops.
-
-      - company: European Researchers' Night
-        position: Presenter
-        location: Ireland
-        start_date: 2020
-        end_date: 2020
-        summary: >
-          [Soap vs COVID-19](https://iribirii.github.io/soapvscovid.github.io/) interactive simulation.
-
     Education:
+      - institution: Technical University of Munich
+        location: Munich, Germany
+        url: https://www.tum.de/
+        area: School of Natural Sciences
+        studyType: Postdoctoral researcher
+        start_date: 2024
+        end_date: present
+
       - institution: Trinity College Dublin
         location: Dublin, Ireland
         url: https://www.tcd.ie/
-        area: Computational Organic Chemistry
+        area: School of Chemistry
         studyType: Ph.D.
-        start_date: 2019-09
-        end_date: 2024-01
-        highlights:
-          - Supervisor — Prof. Cristina Trujillo
-          - SFI fellowship for Ph.D. studies
+        start_date: 2019
+        end_date: 2024
 
       - institution: Universidad Autónoma de Madrid
         location: Madrid, Spain
         url: https://www.uam.es/
         area: Theoretical Chemistry and Computational Modelling (TCCM)
         studyType: M.Sc.
-        start_date: 2016-09
-        end_date: 2018-07
-        highlights:
-          - Master thesis at IQM–CSIC with Prof. Ibon Alkorta
-          - "Cations brought together by hydrogen bonds: the protonated pyridine–boronic acid dimer explained"
-          - UAM–Fujitsu fellowship
+        start_date: 2016
+        end_date: 2018
 
       - institution: Universidad Autónoma de Madrid
         location: Madrid, Spain
-        area: Chemistry
+        url: https://www.uam.es/
+        area: Department of Chemistry
         studyType: B.Sc.
         start_date: 2012
         end_date: 2016
-        highlights:
-          - Research stay at Sorbonne Université with Dr. Julia Contreras (NCI index developments)
+
+    Outreach:
+      - studyType: SciLab / Deutsches Museum (TUM 150th anniversary)
+        institution: Public engagement
+        location: Munich, Germany
+        date: 2026
+
+      - studyType: TUM Open Day
+        institution: Public engagement
+        location: Munich, Germany
+        date: 2026
+
+      - studyType: Current Chemistry Investigators
+        institution: Primary and secondary school outreach
+        location: Dublin, Ireland
+        start_date: 2021
+        end_date: 2024
+
+      - studyType: ESB Science Blast
+        institution: Public engagement
+        location: Dublin, Ireland
+        date: 2023
+
+      - studyType: Stories from the lab
+        institution: Primary and secondary school outreach
+        location: Dublin, Ireland
+        start_date: 2020
+        end_date: 2021
+
+      - studyType: European Researchers' Night
+        institution: Public engagement
+        location: Dublin, Ireland
+        url: https://iribirii.github.io/soapvscovid.github.io/
+        date: 2020
+
+      - studyType: Spectroscopy in a Suitcase
+        institution: Primary and secondary school outreach
+        location: Dublin, Ireland
+        start_date: 2019
+        end_date: 2020
 
     Awards:
       - title: Best Contributed Talk
@@ -174,137 +140,3 @@ cv:
       - title: UAM–Fujitsu fellowship for TCCM master's studies
         date: 2016
         awarder: Universidad Autónoma de Madrid / Fujitsu
-
-    Publications:
-      - title: A Dynamic Evaluation of Cisplatin Encapsulation into [Pd2L4]4+ Metallacages in Solution
-        authors:
-          - Iñigo Iribarren
-        publisher: ACS Nano Medicine
-        releaseDate: 2026
-        url: https://doi.org/10.1021/acsnanomed.6c00024
-        summary: Dynamic evaluation of cisplatin encapsulation in metallacages.
-
-      - title: Computational Workflow to Unravel the Structural Dynamics of Supramolecular Metallacages in Solution
-        authors:
-          - Iñigo Iribarren
-        publisher: Journal of Chemical Theory and Computation
-        releaseDate: 2025
-        url: https://doi.org/10.1021/acs.jctc.5c01465
-        summary: Method ladder for static and dynamic modelling of metallacages.
-
-      - title: Computational Insights into Cinchona-Based Phase Transfer Catalysis for Asymmetric Conjugate Cyanation
-        authors:
-          - Iñigo Iribarren
-          - M. Ferrer
-          - Ibon Alkorta
-          - Cristina Trujillo
-        publisher: European Journal of Organic Chemistry
-        releaseDate: 2024
-        url: https://doi.org/10.1002/ejoc.202400329
-
-      - title: Simultaneous Hydrogen Bonds with Different Binding Modes
-        authors:
-          - Marianne Rica Garcia
-          - Iñigo Iribarren
-          - Isabel Rozas
-          - Cristina Trujillo
-        publisher: Chemistry — A European Journal
-        releaseDate: 2023
-        url: https://doi.org/10.1002/chem.202203577
-
-      - title: Efficiency and Suitability when Exploring the Conformational Space of Phase-Transfer Catalysts
-        authors:
-          - Iñigo Iribarren
-          - Cristina Trujillo
-        publisher: Journal of Chemical Information and Modeling
-        releaseDate: 2022
-        url: https://doi.org/10.1021/acs.jcim.2c00934
-
-      - title: Evaluation of Electron Density Shifts in Noncovalent Interactions
-        authors:
-          - Iñigo Iribarren
-          - Goar Sánchez-Sanz
-          - Ibon Alkorta
-          - José Elguero
-          - Cristina Trujillo
-        publisher: The Journal of Physical Chemistry A
-        releaseDate: 2021
-        url: https://doi.org/10.1021/acs.jpca.1c00830
-        summary: See the full list on the [publications](/publications/) page.
-
-    Skills:
-      - name: Computational chemistry
-        level: Expert
-        icon: fa-solid fa-flask
-        keywords: "DFT, ORCA, xTB, CP2K, MD, metadynamics, MLIP, host–guest modelling"
-
-      - name: Programming & HPC
-        level: Advanced
-        icon: fa-solid fa-hashtag
-        keywords: "Python, SLURM, cheminformatics, data analysis"
-
-      - name: Scientific communication
-        level: Advanced
-        icon: fa-solid fa-palette
-        keywords: "Scientific illustration, journal covers, outreach, teaching"
-
-    Languages:
-      - name: Spanish
-        summary: Native speaker
-      - name: English
-        summary: Fluent
-      - name: German
-        summary: Intermediate
-
-    Interests:
-      - name: Research
-        icon: fa-solid fa-atom
-        keywords: "Metallacages, MOFs, noncovalent interactions, ML for chemistry"
-      - name: Design & outreach
-        icon: fa-solid fa-paintbrush
-        keywords: "Scientific covers, logos, public engagement"
-
-    Projects:
-      - name: Research visit — IQM–CSIC
-        summary: Medicinal Chemistry Institute, Madrid — hosted by Prof. Ibon Alkorta
-        start_date: 2022-05
-        end_date: 2022-07
-        highlights:
-          - Noncovalent interactions and hydrogen-bonded systems
-
-      - name: Research visit — EPFL
-        summary: Laboratory for Computational Molecular Design — hosted by Prof. Clémence Corminboeuf
-        start_date: 2022-05
-        end_date: 2022-05
-
-      - name: smiles2svg
-        url: https://github.com/iribirii/smiles2svg
-        summary: Open-source tool for SVG molecular drawings from SMILES
-        start_date: 2023
-        end_date: present
-        highlights:
-          - Cheminformatics visualization for publications and teaching
-
-      - name: Student supervision
-        summary: Master and undergraduate research projects at TUM, TCD, and TU Dublin
-        start_date: 2019
-        end_date: present
-        highlights:
-          - Master internship (TUM) — UV-VIS spectra of Au-based porphyrins
-          - Multiple Senior Sophister and summer projects on catalysis and docking
-
-    Certificates:
-      - name: Member — Royal Spanish Society of Chemistry (RSEQ)
-        date: 2019
-        issuer: Real Sociedad Española de Química
-        icon: fa-solid fa-certificate
-
-      - name: Organising committee — CAMLC micro-credential
-        date: 2024
-        issuer: GEQC–RSEQ
-        icon: fa-solid fa-users
-
-      - name: Organising committee — ChemEd-Ireland 2023
-        date: 2023
-        issuer: Trinity College Dublin
-        icon: fa-solid fa-users

@@ -2,10 +2,9 @@
 layout: page
 title: design
 permalink: /design/
-description: Scientific covers and illustrations.
+description: Scientific covers, illustrations, logos, and videos.
 nav: true
 nav_order: 3
-display_categories: [covers, illustrations]
 horizontal: false
 ---
 

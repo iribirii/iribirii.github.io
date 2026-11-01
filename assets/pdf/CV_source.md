@@ -243,6 +243,8 @@ OUTREACH AND SCIENCE COMMUNICATION SciLab Deutsches Museum - 150th
 Electrical engineering and information technology at TUM anniversary -
 **Activity leader**
 
+TUM Open Day 2026
+
 ESB Science Blast 2023 - **Activity leader**
 
 Current Chemistry Investigators - Secondary schools workshops -
@@ -256,6 +258,9 @@ schools workshops - *Activity ambassador*
 European researchers night - [Soap vs COVID-19
 website](https://iribirii.github.io/soapvscovid.github.io/) -
 *Presenter*
+
+Spectroscopy in a Suitcase - Secondary schools workshops - *Activity
+ambassador*
 :::
 
 ::: SectionLong
