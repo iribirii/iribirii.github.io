@@ -383,3 +383,16 @@
     border: none;
   }
 }
+
+// Teal accent (preview): light #0d9488, dark #05a69e — replace or tweak after review
+:root {
+  --global-theme-color: #0d9488;
+  --global-hover-color: #0f766e;
+  --global-code-bg-color: rgba(13, 148, 136, 0.06);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #05a69e;
+  --global-hover-color: #2dd4bf;
+  --global-code-bg-color: rgba(5, 166, 158, 0.12);
+}

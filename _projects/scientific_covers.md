@@ -13,6 +13,10 @@ Selected front and back covers designed for journals and group publications.
 
 <div class="illustration-gallery grid">
   <div class="grid-item">
+    {% include figure.liquid path="assets/img/covers/cover_bjoc_flp_2024.jpg" title="Beilstein J. Org. Chem. 2024" class="img-fluid rounded z-depth-1" %}
+    <div class="caption"><b>Beilstein J. Org. Chem. (2024)</b> — Asymmetric frustrated Lewis pairs in epoxide transformations.</div>
+  </div>
+  <div class="grid-item">
     {% include figure.liquid path="assets/img/covers/cover_eurjoc.jpg" title="EurJOC 2021" class="img-fluid rounded z-depth-1" %}
     <div class="caption"><b>EurJOC (2021)</b></div>
   </div>
