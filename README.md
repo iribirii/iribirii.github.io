@@ -21,6 +21,8 @@ git lfs install
 git lfs pull
 ```
 
+Deploy checkout must use `lfs: true` so `_site` gets real binaries (not pointer files). GitHub Pages cannot serve LFS objects from the `gh-pages` branch.
+
 ### Pre-commit
 
 Hooks catch whitespace/YAML issues, private keys, oversized non-LFS files, and run Prettier:

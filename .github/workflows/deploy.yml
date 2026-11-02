@@ -67,6 +67,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v7
+        with:
+          # GIF/MP4 previews live in Git LFS. Without this, Jekyll copies LFS
+          # pointer text into _site and Pages serves broken images/videos.
+          lfs: true
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
