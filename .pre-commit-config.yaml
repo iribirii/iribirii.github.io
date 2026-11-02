@@ -1,14 +1,22 @@
 # See https://pre-commit.com for more information
-# See https://pre-commit.com/hooks.html for more hooks
+# Install locally: pre-commit install
+# Run on demand:   pre-commit run --all-files
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.3.0
+    rev: v5.0.0
     hooks:
       - id: trailing-whitespace
+        exclude: ^(vendor/|node_modules/|_site/|lighthouse_results/|assets/molecules/)
       - id: end-of-file-fixer
+        exclude: ^(vendor/|node_modules/|_site/|lighthouse_results/|assets/molecules/)
       - id: check-yaml
         exclude: ^(_data/citations\.yml|vendor/)
+      - id: check-merge-conflict
+      - id: detect-private-key
       - id: check-added-large-files
+        # GIF/MP4 live in Git LFS; keep a guard for accidental non-LFS binaries
+        args: ["--maxkb=3500"]
+        exclude: \.(gif|mp4)$
 
   - repo: local
     hooks:
@@ -18,5 +26,5 @@ repos:
         language: system
         types_or: [markdown, yaml, css, scss, javascript, json]
         files: \.(md|yml|yaml|css|scss|js|json|liquid)$
-        exclude: ^(vendor/|node_modules/|_site/|lighthouse_results/)
+        exclude: ^(vendor/|node_modules/|_site/|lighthouse_results/|docs/)
         pass_filenames: true
