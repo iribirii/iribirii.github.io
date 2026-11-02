@@ -6,7 +6,7 @@ subtitle: Postdoctoral researcher in computational chemistry · Technical Univer
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.webp
   image_circular: false
 
 selected_papers: false

@@ -33,7 +33,7 @@ Selected front and back covers designed for journals and group publications.
     <div class="caption"><b>Chemistry — A European Journal (2021)</b></div>
   </div>
   <div class="grid-item">
-    {% include figure.liquid path="assets/img/covers/cover_pccp.png" title="PCCP 2020" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/covers/cover_pccp.webp" title="PCCP 2020" class="img-fluid rounded z-depth-1" %}
     <div class="caption"><b>PCCP (2020)</b></div>
   </div>
 </div>
