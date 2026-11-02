@@ -7,4 +7,16 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
+        exclude: ^(_data/citations\.yml|vendor/)
       - id: check-added-large-files
+
+  - repo: local
+    hooks:
+      - id: prettier
+        name: prettier
+        entry: node node_modules/prettier/bin/prettier.cjs --write
+        language: system
+        types_or: [markdown, yaml, css, scss, javascript, json]
+        files: \.(md|yml|yaml|css|scss|js|json|liquid)$
+        exclude: ^(vendor/|node_modules/|_site/|lighthouse_results/)
+        pass_filenames: true

@@ -13,7 +13,7 @@ images:
 {% include figure.liquid path="assets/img/activities/deutsches-museum-150/04.jpg" title="Gagliardi group outreach booth at the Deutsches Museum" class="img-fluid rounded z-depth-1 activity-hero" %}
 <p class="caption activity-hero-caption">At our station in the Deutsches Museum — molecular models and simulations for visitors of all ages.</p>
 
-On 18 March 2026 TUM celebrated **150 years of electrical engineering and information technology** with a public day at the [Deutsches Museum](https://www.deutsches-museum.de/) — the interactive exhibition [*Of quanta, signals and neurosystems*](https://www.tum.de/en/news-and-events/events/details/interactive-exhibition-of-quanta-signals-and-neurosystems) in the museum’s Science Communication Lab (SciLab).
+On 18 March 2026 TUM celebrated **150 years of electrical engineering and information technology** with a public day at the [Deutsches Museum](https://www.deutsches-museum.de/) — the interactive exhibition [_Of quanta, signals and neurosystems_](https://www.tum.de/en/news-and-events/events/details/interactive-exhibition-of-quanta-signals-and-neurosystems) in the museum’s Science Communication Lab (SciLab).
 
 I took part for the group of [Prof. Alessio Gagliardi](https://www.ee.cit.tum.de/en/sne/home/) (**Simulation of Nanosystems for Energy Conversion**), bringing our computational chemistry to a museum audience. Together with colleagues we ran a hands-on station with **physical molecular models** and **on-screen simulations**, so visitors could connect atoms you can hold with the nanostructures we model for energy and materials — including work linked to our [MDSI MiAMI](https://www.mdsi.tum.de/en/mdsi/research/kickstarter/miami/) metallacage project with the Casini group.
 

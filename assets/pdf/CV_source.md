@@ -5,13 +5,13 @@ PERSONAL INFORMATION
 ::: SectionLong
 PROFESIONAL EXPERIENCE **Post-doctoral researcher** in Computational
 Bioinorganic Medicinal Chemistry, School of Natural Sciences, Technical
-University of Munich, Germany. *Machine Learning-Powered Design of
-Supramolecular Metallacages as Novel Drug Delivery Systems*
+University of Munich, Germany. _Machine Learning-Powered Design of
+Supramolecular Metallacages as Novel Drug Delivery Systems_
 
 **Ph.D.** in Computational Organic Chemistry, School of Chemistry,
-Trinity College Dublin (TCD), Ireland. *Theoretical development of new
+Trinity College Dublin (TCD), Ireland. _Theoretical development of new
 class of phase transfer catalysts: applications in the pharmaceutical
-industry*
+industry_
 
 **Consultant** at Everis (NTT Data), Madrid, Spain Big Data projects at
 Banco Santander and Vodafone
@@ -19,23 +19,23 @@ Banco Santander and Vodafone
 
 ::: SectionLong
 FELLOWSHIPS & AWARDS **Best Contributred Talk** - European Symposium on
-Chemical Bonding (CBOND2026) *A Dynamic Evaluation of Cisplatin
-Encapsulation into $[Pd_2L_4]^{4+}$ Metallacages in Solution*
+Chemical Bonding (CBOND2026) _A Dynamic Evaluation of Cisplatin
+Encapsulation into $[Pd_2L_4]^{4+}$ Metallacages in Solution_
 
 BOC Gases bursary thesis competition - 2nd prize
 
 **Best poster** - 12th Triennial Congress of the World Association of
-Theoretical and Computational Chemists (WATOC 2020) *Efficiency and
+Theoretical and Computational Chemists (WATOC 2020) _Efficiency and
 Suitability when Exploring the Conformational Space of Phase-Transfer
-Catalysts*
+Catalysts_
 
 **Best poster** - 3rd European Symposium on Chemical Bonding (CBOND2022)
-*Efficiency and Suitability when Exploring the Conformational Space of
-Phase-Transfer Catalysts*
+_Efficiency and Suitability when Exploring the Conformational Space of
+Phase-Transfer Catalysts_
 
 **Best flash talk** - Institue of Chemistry of Ireland Postgraduate
-Chemistry Research Symposium 2020 *Anion Recognition by Neutral and
-Cationic Iodotriazole Halogen Bonding Scaffolds*
+Chemistry Research Symposium 2020 _Anion Recognition by Neutral and
+Cationic Iodotriazole Halogen Bonding Scaffolds_
 
 SFI fellowship for Ph.D. studies
 
@@ -44,41 +44,41 @@ UAM-Fujitsu fellowship for TCCM master studies
 
 ::: SectionLong
 RESEARCH VISITS Medicinal Chemistry Institue (IQM-CSIC), Madrid, Spain
-*Prof. Ibon Alkorta*
+_Prof. Ibon Alkorta_
 
 École Polytechnique Fédérale de Lausanne (EPFL), Laussane, Switzerland
-*Prof. Clémence Corminboeuf*
+_Prof. Clémence Corminboeuf_
 :::
 
 ::: SectionLong
 SUPERVISION OF STUDENTS Technical University of Munich **Master
-internship student** Tony Benkert - *UV-VIS absortion spectra prediction
-for Au-based porphyrins*
+internship student** Tony Benkert - _UV-VIS absortion spectra prediction
+for Au-based porphyrins_
 
 Trinity College Dublin **Senior Sohister final project** Diana Bura -
-*Theoretical Study of Phase-Transfer Catalysts for asymmetric conjugate
-cyanation of $\alpha$-$\beta$-unsaturated ketones*
+_Theoretical Study of Phase-Transfer Catalysts for asymmetric conjugate
+cyanation of $\alpha$-$\beta$-unsaturated ketones_
 
 Trinity College Dublin **Senior Sophister final project** John Martyn -
-*Theoretical Study of Phase-Transfer Catalysts for asymmetric conjugate
-cyanation of $\alpha$-$\beta$-unsaturated ketones*
+_Theoretical Study of Phase-Transfer Catalysts for asymmetric conjugate
+cyanation of $\alpha$-$\beta$-unsaturated ketones_
 
-Trinity College Dublin **Summer project** Diana Bura - *Conformational
-Study of Phase-Transfer Catalysts*
+Trinity College Dublin **Summer project** Diana Bura - _Conformational
+Study of Phase-Transfer Catalysts_
 
 Technological University Dublin **Senior Sophister final project** Nika
-Melnyk - *Docking vs Quantum Mechanical calculations for the Analysis of
-Antimalarial 1,2,4,5-tetraoxanes - based compounds*
+Melnyk - _Docking vs Quantum Mechanical calculations for the Analysis of
+Antimalarial 1,2,4,5-tetraoxanes - based compounds_
 
 Trinity College Dublin **Senior Sophister final project** Harris
-Shariff - *Study of Tuneable Bioactive Anion Transporters*
+Shariff - _Study of Tuneable Bioactive Anion Transporters_
 
 Trinity College Dublin **Summer project** Sean O'Conell -
-*Conformational Study of Phase-Transfer Catalysts*
+_Conformational Study of Phase-Transfer Catalysts_
 
 Technological University Dublin **Senior Sophister final project**
-Cathal Barry - *Computational analysis of antimalarial 1,2,4-trioxolane
-and 1,2,4,5-tetraoxanes based compounds*
+Cathal Barry - _Computational analysis of antimalarial 1,2,4-trioxolane
+and 1,2,4,5-tetraoxanes based compounds_
 :::
 
 ::: SectionLong
@@ -134,108 +134,107 @@ Vrije Universiteit Brussels - Chemical Theory Group
 :::
 
 ::: SectionLong
-CONFERENCES European Symposium on Chemical Bonding (CBOND2026) - *Talk -
-poster* *A Dynamic Evaluation of Cisplatin Encapsulation into
-$[Pd_2L_4]^{4+}$ Metallacages in Solution*
+CONFERENCES European Symposium on Chemical Bonding (CBOND2026) - _Talk -
+poster_ _A Dynamic Evaluation of Cisplatin Encapsulation into
+$[Pd_2L_4]^{4+}$ Metallacages in Solution_
 
 17th World Congress on Computational Mechanics - 10th European Congress
 on Computational Methods in Applied Sciences and Engineering
-(WCCM-ECCOMAS2026) - *Talk* *A Computational Workflow to Unravel the
-Structural Dynamic of Supramolecular Metallacages in Solution*
+(WCCM-ECCOMAS2026) - _Talk_ _A Computational Workflow to Unravel the
+Structural Dynamic of Supramolecular Metallacages in Solution_
 
-Chemical Compound Space Conference (CCSC2026) - *poster* *A
+Chemical Compound Space Conference (CCSC2026) - _poster_ _A
 Computational Workflow to Unravel the Structural Dynamic of
-Supramolecular Metallacages in Solution*
+Supramolecular Metallacages in Solution_
 
 Theoretical Chemistry and Computational Modeling: 25 years promoting
-Excellence in Science (25TCCM) - *oral communication* *Computational
-workflow comparison to study new anti-cancer drug delivery systems*
+Excellence in Science (25TCCM) - _oral communication_ _Computational
+workflow comparison to study new anti-cancer drug delivery systems_
 
 The 13th OpenMolcas Developers' Workshop
 
-Global Young Scientists Summit (GYSS2025) - *poster* *Machine
+Global Young Scientists Summit (GYSS2025) - _poster_ _Machine
 Learning-Powered Design of Supramolecular Metallacages as Drug Delivery
-Systems*
+Systems_
 
-CeNS-e-conversion workshop at Venice International University - *poster*
-*Machine Learning-Powered Design of Supramolecular Metallacages as Drug
-Delivery Systems*
+CeNS-e-conversion workshop at Venice International University - _poster_
+_Machine Learning-Powered Design of Supramolecular Metallacages as Drug
+Delivery Systems_
 
 MOF Computational Tools and Machine Learning
 
-4th MDSI General Assembly - *poster* *Machine Learning-Powered Design of
-Supramolecular Metallacages as Drug Delivery Systems*
+4th MDSI General Assembly - _poster_ _Machine Learning-Powered Design of
+Supramolecular Metallacages as Drug Delivery Systems_
 
 1st Annual Meeting EIC Pathfinder Open "SMARTdrugs\"
 
-European Conference on Computational & Theoretical Chemistry (EuChemS
-2023) - *poster* *Simultaneous Hydrogen Bonds with Different Binding
-Modes: The Acceptor "Rules" but the Donor "Chooses"*
+European Conference on Computational & Theoretical Chemistry (EuChemS 2023) - _poster_ _Simultaneous Hydrogen Bonds with Different Binding
+Modes: The Acceptor "Rules" but the Donor "Chooses"_
 
 Royal Society of Chemistry annual Organic Chemistry in Ireland -
-*poster* (July) *Simultaneous Hydrogen Bonds with Different Binding
-Modes: The Acceptor "Rules" but the Donor "Chooses"*
+_poster_ (July) _Simultaneous Hydrogen Bonds with Different Binding
+Modes: The Acceptor "Rules" but the Donor "Chooses"_
 
-XXXIX Bienal de la Real Sociedad Española de Química (BQZ2023) - *flash
-communication* *Simultaneous Hydrogen Bonds with Different Binding
-Modes: The Acceptor "Rules" but the Donor "Chooses"*
+XXXIX Bienal de la Real Sociedad Española de Química (BQZ2023) - _flash
+communication_ _Simultaneous Hydrogen Bonds with Different Binding
+Modes: The Acceptor "Rules" but the Donor "Chooses"_
 :::
 
 ::: SectionLong*
-CONFERENCES 3 minutes thesis competition - *oral communication*
-*Evolution of design approaches in asymmetric organocatalysis over the
-last decade*
+CONFERENCES 3 minutes thesis competition - _oral communication_
+_Evolution of design approaches in asymmetric organocatalysis over the
+last decade_
 
-Tetrahedron Chem Seminar Series - *oral communication* *Theoretical
+Tetrahedron Chem Seminar Series - _oral communication_ _Theoretical
 development of new class of phase transfer catalysts: applications in
-the pharmaceutical industry*
+the pharmaceutical industry_
 
 The Conference of Young Researchers in Atomic and Molecular Physics
-(J2IFAM) - *oral communication* *Exploring the conformational space
-within phase transfer catalysts: computational methods benchmarking*
+(J2IFAM) - _oral communication_ _Exploring the conformational space
+within phase transfer catalysts: computational methods benchmarking_
 
 Young Scientists Workshop on Theoretical Chemistry and Computational
-Modelling (YS TCCM 2023) - *oral communication* *Theoretical development
+Modelling (YS TCCM 2023) - _oral communication_ _Theoretical development
 of new class of phase transfer catalysts: applications in the
-pharmaceutical industry*
+pharmaceutical industry_
 
 12th Triennial Congress of the World Association of Theoretical and
-Computational Chemists (WATOC 2020) - *poster* - **best poster award**
-*Exploring the conformational space within phase transfer catalysts:
-computational methods benchmarking*
+Computational Chemists (WATOC 2020) - _poster_ - **best poster award**
+_Exploring the conformational space within phase transfer catalysts:
+computational methods benchmarking_
 
-3rd European Symposium on Chemical Bonding (CBOND2022) - *poster* -
-**best poster award** *Exploring the conformational space within phase
-transfer catalysts: computational methods benchmarking*
+3rd European Symposium on Chemical Bonding (CBOND2022) - _poster_ -
+**best poster award** _Exploring the conformational space within phase
+transfer catalysts: computational methods benchmarking_
 
 12th Congress on Electronic Structure Principles and Applications
-(ESPA-2022) - *poster* *Exploring the conformational space within phase
-transfer catalysts: computational methods benchmarking*
+(ESPA-2022) - _poster_ _Exploring the conformational space within phase
+transfer catalysts: computational methods benchmarking_
 
-LatinXChem2023 - *poster* *Exploring the conformational space within
-phase transfer catalysts: computational methods benchmarking*
+LatinXChem2023 - _poster_ _Exploring the conformational space within
+phase transfer catalysts: computational methods benchmarking_
 
-Virtual GEQC-RSEQ Symposium - *flash talk* *Evaluation of Electron
-Density Shifts in Noncovalent Interactions*
+Virtual GEQC-RSEQ Symposium - _flash talk_ _Evaluation of Electron
+Density Shifts in Noncovalent Interactions_
 
-European Symposium on Organic Reactivity (ESOR2021) - *poster*
-*Improving phase-transfer catalysis by enhancing non-covalent
-interactions*
+European Symposium on Organic Reactivity (ESOR2021) - _poster_
+_Improving phase-transfer catalysis by enhancing non-covalent
+interactions_
 
-LatinXChem2021 - *poster* *Evaluation of Electron Density Shifts in
-Noncovalent Interactions*
+LatinXChem2021 - _poster_ _Evaluation of Electron Density Shifts in
+Noncovalent Interactions_
 
-Royal Society of Chemistry twitter poster event *poster* *Anion
+Royal Society of Chemistry twitter poster event _poster_ _Anion
 Recognition by Neutral and Cationic Iodotriazole Halogen Bonding
-Scaffolds*
+Scaffolds_
 
 Institue of Chemistry of Ireland Postgraduate Chemistry Research
-Symposium 2020 - *flash talk* - **best talk award** *Anion Recognition
-by Neutral and Cationic Iodotriazole Halogen Bonding Scaffolds*
+Symposium 2020 - _flash talk_ - **best talk award** _Anion Recognition
+by Neutral and Cationic Iodotriazole Halogen Bonding Scaffolds_
 
-Virtual Conference on Theoretical Chemistry - *poster* *Anion
+Virtual Conference on Theoretical Chemistry - _poster_ _Anion
 Recognition by Neutral and Cationic Iodotriazole Halogen Bonding
-Scaffolds*
+Scaffolds_
 :::
 
 ::: SectionLong
@@ -248,19 +247,19 @@ TUM Open Day 2026
 ESB Science Blast 2023 - **Activity leader**
 
 Current Chemistry Investigators - Secondary schools workshops -
-**Activity leader** *and ambassador*
+**Activity leader** _and ambassador_
 :::
 
 ::: SectionLong*
 OUTREACH AND SCIENCE COMMUNICATION Stories from the lab - Secondary
-schools workshops - *Activity ambassador*
+schools workshops - _Activity ambassador_
 
 European researchers night - [Soap vs COVID-19
 website](https://iribirii.github.io/soapvscovid.github.io/) -
-*Presenter*
+_Presenter_
 
-Spectroscopy in a Suitcase - Secondary schools workshops - *Activity
-ambassador*
+Spectroscopy in a Suitcase - Secondary schools workshops - _Activity
+ambassador_
 :::
 
 ::: SectionLong

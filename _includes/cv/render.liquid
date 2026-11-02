@@ -57,8 +57,11 @@
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
+        {% comment %} RenderCV 2.x uses headline; older YAML used label {% endcomment %}
+        {% assign cv_headline = cv.headline | default: cv.label %}
+
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv.name or cv_headline or cv.location or cv.email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
@@ -68,10 +71,10 @@
                   <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
                 </tr>
               {% endif %}
-              {% if cv.label %}
+              {% if cv_headline %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv_headline }}</td>
                 </tr>
               {% endif %}
               {% if cv.email %}
@@ -86,7 +89,12 @@
                   <td class="p-1 pl-2 font-weight-light">{{ cv.phone }}</td>
                 </tr>
               {% endif %}
-              {% if cv.address %}
+              {% if cv.location %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv.location }}</td>
+                </tr>
+              {% elsif cv.address %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
                   <td class="p-1 pl-2 font-weight-light">
@@ -109,11 +117,23 @@
           </div>
         {% endif %}
 
-        <!-- Summary -->
+        <!-- Summary: legacy cv.summary or RenderCV TextEntry section -->
+        {% assign summary_entries = cv.sections.Summary %}
         {% if cv.summary %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Professional Summary</h3>
             <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          </div>
+        {% elsif summary_entries and summary_entries.size > 0 %}
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Professional Summary</h3>
+            {% for entry in summary_entries %}
+              {% if entry.bullet %}
+                <p>{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+              {% else %}
+                <p>{{ entry | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+              {% endif %}
+            {% endfor %}
           </div>
         {% endif %}
 
@@ -148,7 +168,10 @@
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
-              {% if section_title == 'Education' or section_title == 'Outreach' %}
+              {% if section_title == 'Summary' %}
+                {% comment %} Already rendered above as Professional Summary {% endcomment %}
+                {% continue %}
+              {% elsif section_title == 'Education' or section_title == 'Outreach' %}
                 {% assign entries = section_entries | al_cv_sort_by_date %}
                 {% include cv/education.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}

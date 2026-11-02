@@ -43,7 +43,12 @@ jobs:
             exit 1
           fi
           rendercv render $cv_file --settings $settings
-          rm assets/rendercv/rendercv_output/*.typ
+          rm -f assets/rendercv/rendercv_output/*.typ
+          # Keep the downloadable CV used by the site in sync
+          rendered_pdf=$(find assets/rendercv/rendercv_output -maxdepth 1 -type f -name '*_CV.pdf' ! -name 'Albert_Einstein_CV.pdf' | head -n 1)
+          if [ -n "$rendered_pdf" ]; then
+            cp "$rendered_pdf" assets/pdf/CV.pdf
+          fi
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v7
         with:
@@ -54,5 +59,9 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
+          if git diff --cached --quiet; then
+            echo "No CV output changes to commit."
+            exit 0
+          fi
           git commit -m "chore: render the latest CV"
           git push

@@ -1,14 +1,9 @@
 cv:
   name: Iñigo Iribarren Aguirre
-  label: Postdoctoral researcher in computational chemistry
+  headline: Postdoctoral researcher in computational chemistry
   email: inigo.iribarren@tum.de
   website: https://iribirii.github.io/
   location: Munich, Germany
-  image: ""
-  summary: >
-    Computational chemist developing machine learning–powered approaches to design
-    and understand supramolecular metallacages as drug-delivery systems. Background
-    in organocatalysis, noncovalent interactions, and scientific visualization.
 
   social_networks:
     - network: GitHub
@@ -22,123 +17,128 @@ cv:
     - network: Bluesky
       username: iiribarren.bsky.social
 
-  address:
-    city: Munich
-    region: Bavaria
-    countryCode: DE
-
   sections:
+    Summary:
+      - >
+        Computational chemist developing machine learning–powered approaches to design
+        and understand supramolecular metallacages as drug-delivery systems. Background
+        in organocatalysis, noncovalent interactions, and scientific visualization.
+
     Education:
       - institution: Technical University of Munich
         location: Munich, Germany
         url: https://www.tum.de/
         area: School of Natural Sciences
-        studyType: Postdoctoral researcher
-        start_date: 2024
+        degree: Postdoctoral researcher
+        start_date: "2024"
         end_date: present
 
       - institution: Trinity College Dublin
         location: Dublin, Ireland
         url: https://www.tcd.ie/
         area: School of Chemistry
-        studyType: Ph.D.
-        start_date: 2019
-        end_date: 2024
+        degree: Ph.D.
+        start_date: "2019"
+        end_date: "2024"
 
       - institution: Universidad Autónoma de Madrid
         location: Madrid, Spain
         url: https://www.uam.es/
         area: Theoretical Chemistry and Computational Modelling (TCCM)
-        studyType: M.Sc.
-        start_date: 2016
-        end_date: 2018
+        degree: M.Sc.
+        start_date: "2016"
+        end_date: "2018"
 
       - institution: Universidad Autónoma de Madrid
         location: Madrid, Spain
         url: https://www.uam.es/
         area: Department of Chemistry
-        studyType: B.Sc.
-        start_date: 2012
-        end_date: 2016
+        degree: B.Sc.
+        start_date: "2012"
+        end_date: "2016"
 
     Outreach:
-      - studyType: SciLab / Deutsches Museum (TUM 150th anniversary)
+      - degree: SciLab / Deutsches Museum (TUM 150th anniversary)
         institution: Public engagement
+        area: Public engagement
         location: Munich, Germany
-        date: 2026
+        date: "2026"
         url: /activities/deutsches-museum-150/
 
-      - studyType: Open Day Garching
+      - degree: Open Day Garching
         institution: Public engagement
+        area: Public engagement
         location: Garching, Germany
-        date: 2026
+        date: "2026"
         url: /activities/open-day-garching-2026/
 
-      - studyType: Current Chemistry Investigators
+      - degree: Current Chemistry Investigators
         institution: Primary and secondary school outreach
+        area: Primary and secondary school outreach
         location: Dublin, Ireland
-        start_date: 2021
-        end_date: 2024
+        start_date: "2021"
+        end_date: "2024"
 
-      - studyType: ESB Science Blast
+      - degree: ESB Science Blast
         institution: Public engagement
+        area: Public engagement
         location: Dublin, Ireland
-        date: 2023
+        date: "2023"
 
-      - studyType: Stories from the lab
+      - degree: Stories from the lab
         institution: Primary and secondary school outreach
+        area: Primary and secondary school outreach
         location: Dublin, Ireland
-        start_date: 2020
-        end_date: 2021
+        start_date: "2020"
+        end_date: "2021"
 
-      - studyType: European Researchers' Night
+      - degree: European Researchers' Night
         institution: Public engagement
+        area: Public engagement
         location: Dublin, Ireland
         url: https://iribirii.github.io/soapvscovid.github.io/
-        date: 2020
+        date: "2020"
 
-      - studyType: Spectroscopy in a Suitcase
+      - degree: Spectroscopy in a Suitcase
         institution: Primary and secondary school outreach
+        area: Primary and secondary school outreach
         location: Dublin, Ireland
-        start_date: 2019
-        end_date: 2020
+        start_date: "2019"
+        end_date: "2020"
 
     Awards:
-      - title: Best Contributed Talk
-        date: 2026
-        awarder: European Symposium on Chemical Bonding (CBOND2026)
+      - name: Best Contributed Talk
+        date: "2026"
         summary: >
-          A Dynamic Evaluation of Cisplatin Encapsulation into
-          [Pd₂L₄]⁴⁺ Metallacages in Solution
+          European Symposium on Chemical Bonding (CBOND2026) — A Dynamic Evaluation of
+          Cisplatin Encapsulation into [Pd₂L₄]⁴⁺ Metallacages in Solution
 
-      - title: BOC Gases bursary thesis competition — 2nd prize
-        date: 2024
-        awarder: Trinity College Dublin / BOC Gases
+      - name: BOC Gases bursary thesis competition — 2nd prize
+        date: "2024"
+        summary: Trinity College Dublin / BOC Gases
 
-      - title: Best poster
-        date: 2022
-        awarder: 3rd European Symposium on Chemical Bonding (CBOND2022)
+      - name: Best poster
+        date: "2022"
         summary: >
-          Efficiency and Suitability when Exploring the Conformational Space
+          3rd European Symposium on Chemical Bonding (CBOND2022) — Efficiency and
+          Suitability when Exploring the Conformational Space of Phase-Transfer Catalysts
+
+      - name: Best poster
+        date: "2020"
+        summary: >
+          WATOC 2020 — Efficiency and Suitability when Exploring the Conformational Space
           of Phase-Transfer Catalysts
 
-      - title: Best poster
-        date: 2020
-        awarder: WATOC 2020
+      - name: Best flash talk
+        date: "2020"
         summary: >
-          Efficiency and Suitability when Exploring the Conformational Space
-          of Phase-Transfer Catalysts
-
-      - title: Best flash talk
-        date: 2020
-        awarder: Institute of Chemistry of Ireland Postgraduate Chemistry Research Symposium
-        summary: >
+          Institute of Chemistry of Ireland Postgraduate Chemistry Research Symposium —
           Anion Recognition by Neutral and Cationic Iodotriazole Halogen Bonding Scaffolds
 
-      - title: SFI fellowship for Ph.D. studies
-        date: 2019
-        awarder: Science Foundation Ireland
+      - name: SFI fellowship for Ph.D. studies
+        date: "2019"
+        summary: Science Foundation Ireland
 
-      - title: UAM–Fujitsu fellowship for TCCM master's studies
-        date: 2016
-        awarder: Universidad Autónoma de Madrid / Fujitsu
+      - name: UAM–Fujitsu fellowship for TCCM master's studies
+        date: "2016"
+        summary: Universidad Autónoma de Madrid / Fujitsu
