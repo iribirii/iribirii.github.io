@@ -1,0 +1,59 @@
+# Events listed on /activities/. Add new items under workshops or outreach.
+workshops:
+  - title: CAMLC26
+    start_date: 2026-06-02
+    end_date: 2026-06-05
+    location: Delegación CSIC, Zaragoza
+    permalink: /activities/camlc26/
+    img: assets/img/activities/camlc26/03-card.jpg
+    summary: >
+      Third edition of the workshop on Cheminformatics, Automation and Machine
+      Learning in Chemistry — organising team and Python tutorial instructor.
+
+  - title: Scientific 2D design workshop
+    date: 2026-05-22
+    location: Technical University of Munich
+    permalink: /activities/scientific-2d-design-workshop/
+    img: assets/img/activities/scientific-2d-design-workshop/02-card.jpg
+    summary: >
+      Hands-on Affinity Designer session for the group — vector schemes for
+      scientific publications, from tools and resources to a first workflow.
+
+  - title: CAMLC25
+    start_date: 2025-09-16
+    end_date: 2025-09-19
+    location: Delegación CSIC, Zaragoza
+    permalink: /activities/camlc25/
+    img: assets/img/activities/camlc25/01-card.jpg
+    summary: >
+      Second edition — organising / teaching team; opening Python tutorial for
+      cheminformatics, automation, and chemical machine learning.
+
+  - title: CAMLC24
+    start_date: 2024-06-16
+    end_date: 2024-06-19
+    location: Residencia Universitaria de Jaca
+    permalink: /activities/camlc24/
+    img: assets/img/activities/camlc24/01-card.jpg
+    summary: >
+      First edition (CSIC micro-credential) in Jaca — Python and RDKit tutorials
+      with the founding teaching team.
+
+outreach:
+  - title: Open Day Garching 2026
+    date: 2026-10-03
+    location: Research Campus Garching, Germany
+    permalink: /activities/open-day-garching-2026/
+    img: assets/img/activities/open-day-garching-2026/15-card.jpg
+    summary: >
+      Hands-on molecular models and interactive computational-chemistry games
+      at the MDSI / relAI booth with the Gagliardi and Casini groups.
+
+  - title: SciLab — Deutsches Museum
+    date: 2026-03-18
+    location: Deutsches Museum, Munich
+    permalink: /activities/deutsches-museum-150/
+    img: assets/img/activities/deutsches-museum-150/04-card.jpg
+    summary: >
+      Public outreach for TUM’s 150 years of electrical engineering and IT —
+      molecular models and simulations with the Gagliardi group at SciLab.

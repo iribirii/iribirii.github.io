@@ -66,11 +66,13 @@ cv:
         institution: Public engagement
         location: Munich, Germany
         date: 2026
+        url: /activities/deutsches-museum-150/
 
-      - studyType: TUM Open Day
+      - studyType: Open Day Garching
         institution: Public engagement
-        location: Munich, Germany
+        location: Garching, Germany
         date: 2026
+        url: /activities/open-day-garching-2026/
 
       - studyType: Current Chemistry Investigators
         institution: Primary and secondary school outreach

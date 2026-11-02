@@ -253,23 +253,14 @@
   }
 }
 
-// Logos gallery: transparent PNGs read clearly on light and dark site themes
+// Logos gallery: no card chrome; transparent assets are flattened to white on disk
 .logo-gallery {
   figure {
-    background: #fff;
-    padding: 1rem;
-    border-radius: 0.25rem;
     margin-bottom: 0;
-  }
-
-  figure img {
-    background: #fff;
   }
 }
 
 .projects a[href*="/logos/"] .card-img-top {
-  background: #fff;
-  padding: 0.75rem;
   object-fit: contain;
 }
 
@@ -382,6 +373,90 @@
     margin: 0;
     border: none;
   }
+}
+
+// Activities index cards
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.activity-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 0.75rem;
+  border-radius: 0.35rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid color-mix(in srgb, var(--global-text-color) 12%, transparent);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+
+  @media (min-width: 576px) {
+    grid-template-columns: minmax(0, 18rem) minmax(0, 1fr);
+  }
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    background: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .activity-card-media {
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+    }
+  }
+
+  .activity-card-title {
+    margin: 0 0 0.25rem;
+    font-size: 1.1rem;
+  }
+
+  .activity-card-meta {
+    margin: 0 0 0.5rem;
+    font-size: 0.875rem;
+    opacity: 0.75;
+  }
+
+  .activity-card-summary {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+}
+
+.activity-meta {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.activity-hero {
+  margin-bottom: 0.35rem;
+}
+
+.activity-hero-caption,
+.activity-credit {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  margin-top: 0.35rem;
+}
+
+.activity-credit {
+  margin-top: 1.5rem;
 }
 
 // Teal accent (preview): light #0d9488, dark #05a69e — replace or tweak after review
